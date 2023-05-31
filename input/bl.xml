@@ -1,0 +1,703 @@
+<resources>
+    <string name="app_name">FinalSafe2</string>
+    <string name="app_name_prod">FinalSafe</string>
+    <string name="app_name_staging">FinalSafeSg</string>
+    <string name="app_name_preprod">FinalSafe</string>
+
+
+    <string name="fabric_key_dev">fb58550b433faf06dee6c1bfb3737eb4997c9f27</string>
+    <string name="fabric_key_prod">9c3b5fe2f1248381e9e9968d33840cd5cd955a9b</string>
+
+
+    <string name="version_number">1012</string>
+
+    <string name="content_description"></string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Paswoord</string>
+    <string name="txt_password_forgot">Paswoord vergeten?</string>
+    <string name="action_sign_in">Verbinding maken</string>
+    <string name="txt.aucune.image">Geen beeld</string>
+    <string name="txt.aucun.risk">Geen resultaat</string>
+    <string name="txt.aucun.chantier">Geen werf</string>
+    <string name="txt_lever_remarque">De observatie oplossen</string>
+    <string name="action_sign_in_short">Aanmelden</string>
+    <string name="action_sign_out">Verbinding verbreken</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="txt.final.safe">"Final Safe"</string>
+    <string name="txt.viste">"Bezoek"</string>
+    <string name="txt.visites">Bezoeken</string>
+    <string name="txt.creez.new.visite">Creëer een nieuw bezoek</string>
+    <string name="txt.completez.visite.courante.prevention">Voltooi het huidig preventiebezoek</string>
+    <string name="txt.completez.visite.courante.conformité">Voltooi het huidig conformiteitsbezoek</string>
+    <string name="txt.completez.visite.courante.hiearchique">Voltooi het huidig hierarchisch bezoek</string>
+    <string name="txt.prevention">"Preventie"</string>
+    <string name="txt.visite.de.prevention">Preventiebezoek</string>
+    <string name="txt.visite.de.conformité">Conformiteitsbezoek</string>
+    <string name="txt.visite.de.hierarchique">Hierarchisch bezoek</string>
+    <string name="txt.conformité">"Conformiteit"</string>
+    <string name="txt.hierarchique">"Hiërarchisch"</string>
+    <string name="txt.synchroniser">Synchroniseren</string>
+    <string name="txt.synchronise.in.progress">Synchronisatie van gegevens bezig</string>
+    <string name="txt.synchronise.en.cours">Synchronisatie bezig</string>
+    <string name="txt.synchronise.done">Synchronisatie succesvol beëindigd</string>
+    <string name="txt.annuler">Annuleren</string>
+    <string name="txt.select">Selecteren</string>
+    <string name="txt.new.visite.prevention">Nieuw preventiebezoek</string>
+    <string name="txt.new.visite.conformité">Nieuw conformiteitsbezoek</string>
+    <string name="txt.new.visite.hiearchique">Nieuw hierarchisch bezoek</string>
+    <string name="txt.choisir.chantier">Kies een werf</string>
+    <string name="txt.mes.chantier">Mijn werven</string>
+    <string name="txt.autres.chantier">Andere werven</string>
+    <string name="txt.filter">Filteren</string>
+    <string name="txt.swivant">Volgende</string>
+    <string name="txt.valider">Bevestigen</string>
+    <string name="txt.completer.info">Vervolledig de informatie</string>
+    <string name="txt.selectionnez.accompagnat">De deelnemer(s) selecteren</string>
+    <string name="txt.precedent">Voorgaande</string>
+    <string name="txt.creez.la.visite">Creëer een bezoek</string>
+    <string name="txt.accompagnats">Deelnemers</string>
+    <string name="txt.accompagnat">Deelnemer</string>
+    <string name="txt.selectionnez.plusisieurs.accompagnat">Eén of meerdere deelnemers selecteren</string>
+    <string name="txt.vous.navez.aucun.accompagnat">U heeft geen deelnemers</string>
+
+    <string name="txt.chantier">Werf</string>
+    <string name="txt.chantiers">Werven</string>
+    <string name="txt.date.operation">Datum bewerking</string>
+    <string name="txt.informations.complementaires">Bijkomende gegevens</string>
+    <string name="txt.visite.courante">Huidig bezoek</string>
+    <string name="txt.fermer">Sluiten</string>
+    <string name="txt.remarques">Observaties</string>
+    <string name="txt.one.remarques">Observatie</string>
+    <string name="txt.points.forts">Sterke punten</string>
+    <string name="txt.one.points.forts">Sterk punt</string>
+    <string name="txt.points.a.ameliorer">Verbeterpunten</string>
+    <string name="txt.one.points.a.ameliorer">Verbeterpunt</string>
+    <string name="txt.supprimer">Verwijderen</string>
+    <string name="txt.editer">Bewerken</string>
+    <string name="txt.editer.visite">Het bezoek wijzigen</string>
+    <string name="txt.cloturer">Afsluiten</string>
+    <string name="txt.typology">Typologie</string>
+    <string name="txt.typology.risques.questions">Typologieën, risico\'s en vragen</string>
+    <string name="txt.typology.etoile">Typologie*</string>
+    <string name="txt.ajouter.accompagant">Een deelnemer toevoegen</string>
+    <string name="txt.ajouter.title">Gelieve een titel in te voeren</string>
+    <string name="txt.prenom">Voornaam*</string>
+    <string name="txt.nom">Naam*</string>
+    <string name="txt.nom.prenom">Naam. Voornaam *</string>
+    <string name="txt.veuillez.choisir.chantier">Gelieve een werf te kiezen</string>
+    <string name="msg.voulez.vous.quitter.creation.visite">Wenst u de creatie van het bezoek te annuleren?</string>
+    <string name="msg.voulez.vous.quitter.modification.visite">Wenst u de aanpassing van het bezoek te annuleren?</string>
+    <string name="txt.quitter">Verlaten</string>
+    <string name="txt.quit.application">Gelieve de app te verlaten?</string>
+    <string name="txt.non">Neen</string>
+    <string name="txt.oui">Ja</string>
+    <string name="txt.positive">Positief</string>
+    <string name="txt.modifier">Wijzigen</string>
+    <string name="txt.ajouter">Toevoegen</string>
+
+    <string name="txt.done">Beëindigen</string>
+    <string name="txt.appliquer">Toepassen</string>
+    <string name="txt.primetre">Perimeter</string>
+    <string name="txt.direction.eiffage">Directie Eiffage Construction</string>
+
+
+    <string name="txt.creez.nouvelle.remarque">Creër een nieuwe observatie</string>
+    <string name="txt.nouvelle.remarque">Nieuwe observatie</string>
+    <string name="txt.title.ajout.observations">Observaties toevoegen</string>
+    <string name="txt.title.ajout.observation">Observatie toevoegen</string>
+    <string name="txt.title.ajouter.observation">Een observatie toevoegen</string>
+    <string name="txt.title.edit.observation">De observatie wijzigen</string>
+    <string name="txt.ajout.edit.remarque">Een observatie toevoegen of aanpassen</string>
+    <string name="txt.ajout.edit.observations">Eén of meerdere observaties toevoegen of aanpassen</string>
+    <string name="txt.ajout.observations">Eén of meerdere observaties toevoegen</string>
+    <string name="txt.add.edit.strong.point">Een sterk punt toevoegen of aanpassen</string>
+    <string name="txt.add.strong.point">Een sterk punt toevoegen</string>
+    <string name="txt.update.strong.point">Een sterk punt bewerken</string>
+    <string name="txt.create.new.point.to.improove">Creëer een nieuw verbeterpunt</string>
+    <string name="txt.add.edit.point.to.improove">Een verbeterpunt toevoegen of aanpassen</string>
+    <string name="txt.add.point.to.improove">Een verbeterpunt toevoegen</string>
+    <string name="txt.update.point.to.improove">Een verbeterpunt bewerken</string>
+    <string name="txt.create.new.strong.point">Creëer een nieuw sterk punt</string>
+    <string name="txt.title">Titel*</string>
+    <string name="txt.titlee">Titel</string>
+    <string name="msg.saisr.title.remarque">Gelieve de titel van de observatie in te voeren</string>
+    <string name="msg.saisr.commentaires">Gelieve uw commentaar in te voeren of foto\'s van oplossing toe te voegen</string>
+    <string name="msg.saisr.commentaires.flash">Gelieve uw commentaar in te voeren</string>
+    <string name="msg.saisir.description">Gelieve een beschrijving in te voeren</string>
+    <string name="txt.selectionnez.risque">Het risico selecteren</string>
+    <string name="txt.selectionnez.un.risque">Het risico selecteren</string>
+    <string name="txt.risque">Risico</string>
+    <string name="txt.risque.etoile">Risico*</string>
+    <string name="txt.selectionnez.topologie">De typologie selecteren</string>
+    <string name="txt.topologie">Typologie</string>
+    <string name="txt.creez.remarque">Creëer een observatie</string>
+    <string name="txt.creez.observation">Creëer een observatie</string>
+    <string name="txt.modifier.observation">De observatie wijzigen</string>
+    <string name="txt.sauvegarder.observation">De observatie bewaren</string>
+
+    <string name="txt.modifier.remarque">De observatie wijzigen</string>
+    <string name="txt.mesure.prevention">Preventiemaatregelen</string>
+    <string name="txt.sauvegarder.remarque">Bewaren</string>
+    <string name="txt.description">Omschrijving*</string>
+    <string name="txt.description.no.star">Omschrijving</string>
+    <string name="msg.voulez.vous.quitter.creation.remarque">Wenst u de creatie van de observatie te annuleren?</string>
+    <string name="msg.voulez.vous.quitter.creation.observation">Wenst u de creatie van de observatie te annuleren?</string>
+    <string name="msg.voulez.vous.quitter.modification.remarque">Bent u zeker dat u de aanpassingen wenst te annuleren?</string>
+    <string name="msg.voulez.vous.quitter.modification.observation">Bent u zeker dat u de aanpassingen wenst te annuleren?</string>
+    <string name="msg.voulez.vous.supprimer.remarque">Wenst u deze observatie te verwijderen?</string>
+    <string name="msg.voulez.vous.supprimer.photo">Wenst u deze foto te verwijderen?</string>
+    <string name="msg.are.you.sure.to.delete.visite">Wenst u het huidig bezoek te verwijderen?</string>
+
+    <string name="msg.warning.delete.strong.point">Wenst u dit sterk punt te verwijderen?</string>
+    <string name="msg.warning.delete.point.to.improve">Wenst u dit verbeterpunt te verwijderen?</string>
+
+    <string name="msg.voulez.vous.quitter.creation.point.fort">Wenst u de creatie van het sterk punt te annuleren?</string>
+    <string name="msg.voulez.vous.quitter.creation.point.ameliorer">Wenst u de creatie van het verbeterpunt te annuleren?</string>
+
+    <string name="txt.photos">Foto\'s</string>
+    <string name="txt.levee">Opgelost</string>
+    <string name="txt.observations">Observaties</string>
+
+
+    <string name="txt.erreur">Foutmelding</string>
+    <string name="txt.OK">OK</string>
+    <string name="txt.verfier.champs">Gelieve de naam in te voeren.</string>
+
+
+    <string name="txt.dashboard">Dashboard</string>
+    <string name="txt.profile">Profiel</string>
+    <string name="txt.settings">Parameters</string>
+    <string name="txt.new.visit.flash">Flash-observatie</string>
+    <string name="txt.my.remarks">Mijn op te lossen observaties</string>
+
+    <string name="txt.region">Regio\'s</string>
+    <string name="txt.filiale">Filiaal</string>
+    <string name="txt.sas">Bedrijf</string>
+    <string name="txt.etablissement">Ondernemingen</string>
+
+
+    <string name="txt.region.min">regio\'s</string>
+    <string name="txt.sas.min">Bedrijf</string>
+    <string name="txt.etablissement.min">ondernemingen</string>
+
+    <string name="txt.next">Volgende</string>
+    <string name="txt.toutes.les">Alle</string>
+    <string name="txt.tous.les">Alle</string>
+    <string name="txt.tous.les.chantiers">Alle werven</string>
+
+
+    <string-array name="array_choose_chantier">
+        <item>@string/txt.mes.chantier</item>
+        <item>@string/txt.autres.chantier</item>
+    </string-array>
+
+
+    <string name="txt.photo.creaton">Foto creatie</string>
+    <string name="txt.photo.levee">Fot opgelost</string>
+    <string-array name="array_levee">
+        <item>@string/txt.photo.creaton</item>
+        <item>@string/txt.photo.levee</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="txt.visites.cloturees">nieuwe afgesloten bezoeken</string>
+    <string name="txt.visite.cloturee">1 nieuw afgesloten bezoek</string>
+    <string name="txt.no.visit.clotured">U heeft geen afgesloten bezoeken</string>
+    <string name="msg.voulez.vous.cloturer.visite">Bent u zeker dat u uw bezoek wenst af te sluiten?</string>
+
+
+    <string name="msg.voulez.vous.synchroniser.visites">Wenst u uw afgesloten bezoeken te synchroniseren?</string>
+
+
+    <string name="error.email.empty">Gelieve uw e-mail in te voeren.</string>
+    <string name="error.password.empty">Gelieve uw paswoord in te voeren.</string>
+    <string name="error.email.password.not.match">Uw e-mail of paswoord is niet correct. Gelieve opnieuw te proberen.</string>
+    <string name="error.email.not.eiffage">Gelieve uw interne Eiffage e-mail te gebruiken</string>
+    <string name="error.email.not.valid">Gelieve een geldige e-mail in te voeren.</string>
+    <string name="error_field_required">Dit veld is verplicht</string>
+    <string name="txt.risks">Risico\'s</string>
+    <string name="txt.typologies">Typologieën</string>
+    <string name="msg.champ.vide">Dit veld mag niet leeg zijn</string>
+
+    <string name="txt.referentiel.listes">Standaard en lijsten</string>
+
+    <string name="txt.no.accounts">U heeft geen account?</string>
+
+    <string name="txt.title.connection.failed">Verbindingsfout</string>
+    <string name="txt.msg.connection.failed">Er is een fout opgetreden, gelieve later opnieuw te proberen</string>
+
+
+    <string name="msg.alert.deconnection">Bent u zeker dat u zich wil afmelden?</string>
+
+    <string name="txt.reset.password.ok">Verzoek tot het resetten van het paswoord is met succes uitgevoerd</string>
+    <string name="txt.msg.internet.off">Verbindingsprobleem, gelieve uw internetverbinding te controleren</string>
+
+    <string name="txt.title.alert.error.server">Serverfout</string>
+    <string name="txt.msg.alert.error.server">Er is een serverfout opgetreden, gelieve later opnieuw te proberen</string>
+
+    <string name="msg.voulez.vous.annuler.changements">Wenst u de wijzigingen te annuleren?</string>
+    <string name="txt.reinitialiser.mot.passe">Het paswoord resetten</string>
+
+    <string name="msg.vous.pouvez.pas.cree.vpc">U heeft niet de rechten om preventiebezoeken te creëren</string>
+    <string name="msg.vous.pouvez.pas.cree.vconf">U heeft niet de rechten om conformiteitsbezoeken te creëren</string>
+    <string name="msg.vous.pouvez.pas.cree.vher">U heeft niet de rechten om hierarchische bezoeken te creëren</string>
+    <string name="msg.vous.pouvez.pas.lever.remarque">U heeft niet de rechten om observaties op te lossen</string>
+
+    <string name="error.select.typology">Gelieve een typologie te selecteren</string>
+    <string name="error.select.risk">Gelieve een risico te selecteren</string>
+    <string name="error.select.a.risk">Gelieve een risico te selecteren</string>
+    <string name="error.point.empty">Dit veld mag niet leeg zijn</string>
+
+    <string name="test.desc"> </string>
+    <string name="txt.commentaires">Commentaren*</string>
+    <string name="txt.commentaires.without.start">Commentaren</string>
+    <string name="txt.comment.without.star">Commentaar</string>
+    <string name="text.last.synchronise">Laatste synchronisatie op</string>
+    <string name="text.any.last.synchronise">Er is geen synchronisatie uitgevoerd</string>
+
+    <string name="text.positive.points.empty">Geen sterk punt.</string>
+    <string name="text.negative.points.empty">Geen verbeterpunt.</string>
+    <string name="text.remarque.empty">Geen observatie voor deze werf.</string>
+    <string name="text.observations.empty">Er is geen observatie toegevoegd aan de werf.</string>
+    <string name="msg.acune.observation.trouvee">Geen observatie gevonden.</string>
+
+    <string name="msg.cant.cloture.viste">U heeft geen enkele actie genomen. Gelieve een observatie, een strek punt of een verbeterpunt toe te voegen</string>
+
+    <string name="txt.aucune.synchro">Er is geen synchronisatie uitgevoerd.</string>
+
+
+    <string name="txt.no.photos.wait.send">Geen foto in wacht om verzonden te worden.</string>
+    <string name="txt.nb.photos.wait.send"> Foto(\'s) in afwachting van verzending</string>
+    <string name="txt.last.update.at">Laatste bijwerking</string>
+    <string name="txt.download.autres.chantiers">De gegevens van één of meerdere werven downloaden</string>
+
+    <!--fabric identifier-->
+    <string name="fabric_api_key">fb58550b433faf06dee6c1bfb3737eb4997c9f27</string>
+
+
+    <string name="function.not.done.yet">Deze functie is nog niet beschikbaar</string>
+    <string name="you.dont.have.access">U heeft geen toegang tot deze functionaliteit</string>
+
+    <string name="msg.no.cs.is.affected">Er is geen werf aan u toegewezen.</string>
+
+    <string name="txt.add.remark">Een observatie toevoegen</string>
+    <string name="txt.new.strong.point">Nieuw sterk punt</string>
+    <string name="txt.new.point.to.improve">Nieuw verbeterpunt</string>
+    <string name="txt.add.chantier">Een werf toevoegen</string>
+    <string name="txt.save.visit">Het bezoek bewaren</string>
+    <string name="txt.code.chantier">Code werf*</string>
+    <string name="txt.code.chantier.no.star">Code werf</string>
+
+
+    <string name="txt.conformite">Conformiteit</string>
+    <string name="txt.conforme">Conform</string>
+
+    <string name="txt.ug.obs.not.applied">pas appliqué</string>
+    <string name="txt.ug.obs.poorly.mastered">peu maitrisé</string>
+    <string name="txt.ug.obs.good.app">bonne application</string>
+    <string name="txt.ug.obs.mastered.application">application maitrisée</string>
+
+    <string name="txt.ug.obs.not.applied.chart">Pas appliqué</string>
+    <string name="txt.ug.obs.poorly.mastered.chart">Peu maitrisé</string>
+    <string name="txt.ug.obs.good.app.chart">Bonne application</string>
+    <string name="txt.ug.obs.mastered.application.chart">Application maitrisée</string>
+
+    <string name="txt.ug.obs.prod.basic1">Basic 1 : Attitude bienveillante</string>
+    <string name="txt.ug.obs.prod.basic2">Basic 2 : Equipement de protection individuelle</string>
+    <string name="txt.ug.obs.prod.basic3">Basic 3 : Poste de travail propre et rangé</string>
+    <string name="txt.ug.obs.prod.basic4">Basic 4 : Respect de la circulation dans les extérieurs/ateliers/magasin</string>
+    <string name="txt.ug.obs.prod.basic5">Basic 5 : Matériel et accessoire de levage</string>
+
+    <string name="txt.ug.obs.trav.basic1">Basic sécurité 1 : EPI</string>
+    <string name="txt.ug.obs.trav.basic2">Basic 2 : Barriérage</string>
+    <string name="txt.ug.obs.trav.basic3">Basic 3 : Echafaudage roulant</string>
+    <string name="txt.ug.obs.trav.basic4">Basic 4 : Plateforme suspendue</string>
+    <string name="txt.ug.obs.trav.basic5">Basic 5 : Palonnier à ventouses</string>
+
+    <string name="txt.ug.obs.bure.basic1">Basic 1 : Attitude bienveillante</string>
+    <string name="txt.ug.obs.bure.basic2">Basic 2 : Equipement de protection individuelle</string>
+    <string name="txt.ug.obs.bure.basic3">Basic 3 : Poste de travail propre et rangé</string>
+    <string name="txt.ug.obs.bure.basic4">Basic 4 : Respect de la circulation dans les extérieurs/ateliers/magasin</string>
+    <string name="txt.ug.obs.bure.basic5">Basic 5 : Matériel et accessoire de levage</string>
+
+    <string name="txt.non.conforme">Niet conform</string>
+    <string name="txt.sans.objet">Zonder voorwerp</string>
+    <string name="txt.non.observe">Niet geobserveerd</string>
+    <string name="txt.rubriques">Alle rubrieken</string>
+    <string name="txt.veuillez.ajouter.observation">Kies de observatiestatus.</string>
+    <string name="msg.visite.flash.succes.creation">Uw bezoek is met succes gecreëerd</string>
+
+    <string name="txt.to.add.observation">Om een observatie toe te voegen</string>
+    <string name="txt.select.question.click.plus">Een vraag selecteren en tikken (+)</string>
+    <string name="txt.edit.observation">Een observatie bewerken</string>
+
+
+    <string name="txt.trait">Kenmerk</string>
+    <string name="txt.couleur">Kleur</string>
+    <string name="txt.qr.code.empty">Gelieve de werfcode in te voeren of de QR-code te scannen.</string>
+
+    <string name="txt.identifier.chantier">Bepaal de werf</string>
+    <string name="txt.vous.reste">U heeft nog</string>
+    <string name="txt.jours.else.deconnected">dagen anders zal uw account worden afgesloten</string>
+    <string name="txt.minutes.else.deconnected">minuten anders zal uw account uitgelogd worden</string>
+    <string name="txt.reinitialiser.filtres">De filters resetten</string>
+
+    <string name="txt.my.obs.to.raise">Mijn op te lossen observaties</string>
+
+
+    <string name="txt.you.have.visits.not.synchronised">U heeft niet gesynchroniseerde bezoeken, gelieve deze te synchroniseren om verder te kunnen gaan</string>
+    <string name="txt.you.have.already.visit.in.progress">U heeft momenteel een bezoek geactiveerd, gelieve het af te sluiten en te synchroniseren om de opmerkingen te kunnen doorgeven</string>
+    <string name="txt.one.operation.in.progress">Er is een bewerking bezig om observaties op een andere werf op te lossen. Gelieve te synchroniseren voordat u een andere bewerking creëert.</string>
+    <string name="txt.one.operation.in.progress.new.visit.prevention">Er is een bewerking bezig om observaties op te lossen. Gelieve te synchroniseren voordat u een nieuw preventiebezoek creëert.</string>
+    <string name="txt.one.operation.in.progress.new.visit.hierarchique">Er is een bewerking bezig om observaties op te lossen. Gelieve te synchroniseren voordat u een nieuw hiërarchisch bezoek creëert.</string>
+    <string name="txt.one.operation.in.progress.new.visit.conformitee">Er is een bewerking bezig om observaties op te lossen. Gelieve te synchroniseren voordat u een nieuw conformiteitsbezoek creëert. </string>
+    <string name="txt.consult.or.raise.rq">Een observatie raadplegen of oplossen</string>
+    <string name="msg.visite.reserve.succes.creation">Uw opheffing is met succes bewaard</string>
+    <string name="msg.areyou.sure.synchronise.observations.levées">Wenst u de synchronisatie te starten van de huidige bewerking voor het oplossen van observaties?</string>
+    <string name="txt.select.cs">Een werf selecteren</string>
+    <string name="txt.plus.tard">Later</string>
+    <string name="msg.are.you.sure.to.delete.opration.reserve">Wenst u de huidige bewerking voor het oplossen van observaties te verwijderen?</string>
+
+    <string name="msg.renseigner.infos.requises">Gelieve de ontbrekende informatie in te vullen om verder te kunnen gaan.</string>
+
+    <string name="txt.raised.reserve">Oplossing van de reserves</string>
+    <string name="txt.dashboard.message">Statistieken berekend sinds</string>
+    <string name="txt.empty.statistics">Geen statistieken berekend</string>
+    <string name="txt.dashboard.filter">Regio - Filiaal - Vestiging</string>
+    <string name="txt.my.visits">Mijn bezoeken : </string>
+    <string name="txt.my.visits.bar">Mijn bezoeken : -</string>
+    <string name="txt.conform.positive">Conform en positief : </string>
+    <string name="txt.not.conform.negative">Niet conform en te verbeteren : </string>
+    <string name="txt.type.visits">TYPE BEZOEKEN</string>
+    <string name="txt.prevention.prevention">Preventie</string>
+    <string name="txt.hiearchic">Hiërarchisch</string>
+    <string name="txt.flash">Flash</string>
+    <string name="txt.top.risks">VOORNAAMSTE RISICO\'S</string>
+    <string name="txt.others">Andere</string>
+    <string name="txt.conform.positive.not.conform.negative">CONFORM EN POSITIEF / NIET CONFORM EN TE VERBETEREN</string>
+    <string name="txt.no.data">Ontbrekende gegevens</string>
+    <string name="txt.select.color">Een kleur selecteren</string>
+    <string name="txt.period">Periode</string>
+    <string name="txt.filters">Filters</string>
+    <string name="txt.reinitialiser.perimetre">Herinitialiseren van de perimeter</string>
+
+    <string name="txt.starting.from">Sinds</string>
+    <string name="txt.yesterday">Gisteren</string>
+    <string name="txt.seven.days">Laatste 7 dagen</string>
+    <string name="txt.thirteen.days">Laatste 30 dagen</string>
+    <string name="txt.this.month">Deze maand</string>
+    <string name="txt.last.month">Laatste maand</string>
+    <string name="txt.custom">Gepersonaliseerd</string>
+
+    <string name="txt.date.invalid.start">Datum later dan einddatum</string>
+    <string name="txt.date.invalid.end">Datum vroeger dan begindatum</string>
+
+
+    <string name="txt.selected.items.zero">Er is geen element geselecteerd.</string>
+    <string name="txt.selected.items">geselecteerde onderdelen</string>
+
+    <string name="txt.no.region">Geen regio</string>
+    <string name="txt.no.sas">Geen bedrijf</string>
+    <string name="txt.no.etablishment">Geen vestiging</string>
+
+    <string name="txt.selections">selecties</string>
+    <string name="txt.retry">Opnieuw proberen</string>
+    <string name="txt.no.cs.found">Aucun chantier n’est trouvé</string>
+    <string name="txt.scan">Scanner</string>
+
+    <string name="txt.language.code.fr">FR</string>
+    <string name="txt.language.code.pl">PL</string>
+    <string name="txt.language.code.nl_BE">NL BE</string>
+
+    <string name="txt.language.name.fr">Frans</string>
+    <string name="txt.language.name.pl">Pools</string>
+    <string name="txt.language.name.nl_BE">Nederlands</string>
+
+    <string name="txt.conformes">Conform</string>
+    <string name="txt.positives">Positief</string>
+    <string name="txt.non.conformes">Niet conform</string>
+    <string name="txt.a.ameliorer">Te verbeteren</string>
+
+    <string name="txt.toutes.regions">Toutes les régions</string>
+
+    <string name="c">C</string>
+    <string name="nc">NC</string>
+    <string name="so">ZV</string>
+
+    <string name="code_chantier_btn">Werfcode</string>
+    <string name="txt.language.switch">Verander de taal</string>
+    <string name="txt.language">Taal</string>
+    <string name="erreur_lors_du_scan">Er is geen QR-code gedetecteerd in de foto.</string>
+    <string name="choisir_methode_de_saisie">Kies een optie</string>
+    <string name="saisir_code">Voer de code in</string>
+    <string name="choisir_un_chantier">Kies een werf</string>
+    <string name="ajouter_une_nouvelle_observation">Een nieuwe observatie toevoegen</string>
+    <string name="nouvelles_observations">Nieuwe observaties</string>
+    <string name="nouvelles_observations_with_two_points">Nieuwe observaties :</string>
+    <string name="observation_positive">Positieve observatie</string>
+    <string name="observation_negative">Negatieve observatie</string>
+    <string name="nouvelle_observation">Nieuwe observatie</string>
+    <string name="neg_ou_pos">Kies of de observatie positief of negatief is.</string>
+    <string name="toute">Elke</string>
+    <string name="chantier_de_mon_perimetre">Werf van\nmijn perimeter</string>
+    <string name="qr_code">QR\ncode</string>
+    <string name="selectionner_le_chantier_par">Selecteer de werf* door :</string>
+    <string name="no_cs_by_ref">Deze code komt met geen enkele werf in FinalSafe overeen.</string>
+    <string name="msg_synch_flash_part1">De Flash-observatie \"</string>
+    <string name="msg_synch_flash_part2">\" kan niet gesynchroniseerd worden omdat de ingevoerde werfcode ongeldig is. Wilt u het wijzigen en opnieuw synchroniseren ?</string>
+
+    <string name="utiliser">Gebruiken</string>
+    <string name="etes_vous_sur_de_vouloir_sauvegarder">Bent u zeker dat u dit wenst op te slaan ?</string>
+    <string name="delete_or_edit_visit">Wenst u dit bezoek te schrappen of te wijzigen ?</string>
+    <string name="choisir_chantier">Werf kiezen</string>
+    <string name="chantiers_desactives">Gedesactiveerde werven</string>
+    <string name="txt_language_name_gr">Duits</string>
+
+    <string name="txt.visits">Historiek van de bezoeken</string>
+    <string name="per_site">Per werf</string>
+    <string name="per_user">Per gebruiker</string>
+    <string name="txt.users">Gebruikers</string>
+    <string name="txt_select_scope">Selecteer een perimeter</string>
+    <string name="txt_plz_select_scope">Gelieve een perimeter te selecteren.</string>
+    <string name="txt_last_visit">Laatste bezoek : %s</string>
+    <string name="txt_single_visite">bezoek</string>
+    <string name="txt_lifted_label">Opgelost :</string>
+    <string name="txt.lifted">Opgelost</string>
+    <string name="txt.positives.obs">Positief : %s</string>
+    <string name="txt.lifted.nb">Nog op te lossen : %s</string>
+    <string name="top_five">DE MEEST FREQUENTE GEBRUIKERS: TOP 5</string>
+    <string name="txt.not.lifted">Niet opgelost</string>
+    <string name="txt_last_year">Vorig jaar</string>
+    <string name="txt_visit_details">Details van het bezoek</string>
+    <string name="txt_obs_not_lifted">Observatie niet opgelost</string>
+    <string name="txt_lifted_details">Observatie opgelost op %1$s door %2$s</string>
+    <string name="txt_comments">Commentaar :</string>
+    <string name="txt_not_specified">Niet ingevuld</string>
+    <string name="txt_photos_size">Foto\'s (%s) :</string>
+    <string name="txt_editor">Opsteller</string>
+    <string name="txt_preventive_measure">Preventiemaatregel</string>
+    <string name="txt_negatives">Negatief</string>
+    <string name="observations_positives">Positieve observaties</string>
+    <string name="observations_negatives">Negatieve observaties</string>
+    <string name="txt_filter_by_site_name">Filter op werfnaam</string>
+    <string name="txt_filter_by_name">Filter op naam, voornaam</string>
+    <string name="txt_search_no_sites">Geen enkele werf komt overeen met uw zoekopdracht.</string>
+    <string name="first_name">Naam</string>
+    <string name="last_name">Voornaam</string>
+    <string name="txt_enter_my_infos">Voer mijn gegevens in</string>
+    <string name="txt_continue_creating_account">Ga verder met het aanmaken van mijn account</string>
+    <string name="txt_ets">Onderneming</string>
+    <string name="txt_function">Functie</string>
+    <string name="choose_password">Kies mijn wachtwoord</string>
+    <string name="confirm_password">Bevestig het wachtwoord</string>
+    <string name="txt_pwd_error_name">Het wachtwoord mag niet de voor en/of achternaam bevatten.</string>
+    <string name="txt_pwd_error_length">Het wachtwoord moet minstens 10 karakters lang zijn.</string>
+    <string name="txt_pwd_error_special_characters">Ongeldig wachtwoord.</string>
+    <string name="txt_pwd_error_not_identical">De twee wachtwoorden zijn niet identiek.</string>
+    <string name="txt_create_account">Maak mijn account aan</string>
+    <string name="txt_create_my_account">Maak mijn account aan</string>
+    <string name="txt_general_terms_of_use_span">de algemene aanvaardingsvoorwaarden</string>
+    <string name="txt_general_terms_of_use">Ik accepteer de algemene aanvaardingsvoorwaarden.</string>
+    <string name="code_sent">Een nieuwe activatiecode is verstuurd naar %s</string>
+    <string name="select_function">Selecteer een functie</string>
+    <string name="select_region">Selecteer een regio</string>
+    <string name="select_sas">Selecteer een filiaal</string>
+    <string name="select_ets">Selecteer een bedrijf</string>
+    <string name="txt_error_please_enter_first_name">Gelieve een naam in te vullen.</string>
+    <string name="txt_error_please_enter_last_name">Gelieve een voornaam in te vullen.</string>
+    <string name="txt_error_please_enter_function">Gelieve een functie in te vullen.</string>
+    <string name="txt_error_please_enter_region">Gelieve minstens één regio in te vullen.</string>
+    <string name="txt_action_incontournables">Noodzakelijke acties</string>
+    <string name="msg_info_question_national">Gelieve alle nationale vragen te beantwoorden.</string>
+    <string name="lifted_reserve">Opgeloste opmerkingen</string>
+    <string name="txt_password_description">Het wachtwoord moet 10 karakters lang zijn. Het moet minstens 3 van de volgende 4 verschillende soorten tekens bevatten: hoofdletters, kleine letters, cijfers en speciale tekens.</string>
+    <string name="txt_all_functions">Alle functies</string>
+    <string name="txt.aucun.user">Geen gebruikers gevonden.</string>
+    <string name="pending_synchro">Foto\'s worden momenteel gesynchroniseerd. Gelieve de toepassing niet te sluiten.</string>
+    <string name="txt_return_the_code"><u>Stuur de code opnieuw</u></string>
+    <string name="enter_your_code">Gelieve de code in te vullen.</string>
+    <string name="contact_admin">Neem contact op met een beheerder.</string>
+    <string name="txt_description_persona_info">Na het aanmaken van uw account zijn eventuele wijzigingen mogelijk door een beheerder.</string>
+    <string name="txt_observation_by_visites">Observaties door bezoeken</string>
+    <string name="txt_more_visites">bezoeken</string>
+    <string name="txt_Observations">Observaties</string>
+    <string name="txt_no_visit">Geen bezoeken</string>
+    <string name="txt_evaluation_selected_empty">Gelieve een evaluatie te geven voordat u opslaat!</string>
+    <string name="txt_evaluation_visit_flash">Om de afwijking zonder risico te corrigeren* :</string>
+    <string name="txt_header_observations">Op %1$s door %2$s</string>
+    <string name="txt_nbr_visit"><![CDATA[<font color="#000000">%1$s</font> %2$s dit jaar, <font color="#000000">%3$s</font> in %4$s]]></string>
+    <string name="toolbar_title_observations">Observaties %1$s (%2$s)</string>
+    <string name="txt_i_know_i_can_i_act">Ik weet het, ik kan het, ik doe het.</string>
+    <string name="txt_i_know_i_can_not_i_report">Ik weet het, ik kan het niet, ik meld het.</string>
+    <string name="txt_i_do_not_know_i_report">Ik weet het niet, ik meld het.</string>
+    <string name="error_cgu">Gelieve het vakje aan te kruisen om de gebruiksvoorwaarden te aanvaarden.</string>
+    <string name="txt_edit_my_email">Mijn e-mailadres wijzigen</string>
+    <string name="downloading_photos">Het downloaden van foto\'s is nog bezig.</string>
+    <string name="error_attempts">U heeft het aantal toegestane pogingen overschreden. Neem contact op met de beheerder.</string>
+    <string name="txt_more_visits"><u>Bekijk meer bezoeken</u></string>
+    <string name="txt_aucun_user_filter">Geen enkele gebruiker komt overeen met uw zoekopdracht.</string>
+    <string name="txt_select_observation">Gelieve een observatie te selecteren.</string>
+    <string name="txt_continue_create_account">Ga verder met het aanmaken van mijn account</string>
+    <string name="txt_an_activation_code">Een activatiecode is verzonden naar</string>
+    <string name="finalize_create_account">Voltooi het aanmaken van mijn account</string>
+    <string name="txt_nbr_visites">Bezoeken : %s</string>
+    <string name="txt_visit_flash">Flash-observatie</string>
+    <string name="observation_details">Details van de observatie</string>
+    <string name="txt_this_year">Dit jaar</string>
+    <string name="sso_description">Welkom bij de app van Eiffage Construction voor het beheer van de preventie.\nU hebt een account van Eiffage nodig om verbinding te maken.</string>
+    <string name="january">januari</string>
+    <string name="february">februari</string>
+    <string name="march">maart</string>
+    <string name="april">april</string>
+    <string name="may">mei</string>
+    <string name="june">juni</string>
+    <string name="july">juli</string>
+    <string name="august">augustus</string>
+    <string name="september">september</string>
+    <string name="october">oktober</string>
+    <string name="november">november</string>
+    <string name="december">december</string>
+    <string name="txt_site_name_and_date">%1$s - %2$s</string>
+    <string name="au">aan</string>
+    <string name="du">van</string>
+    <string name="settings_about">over</string>
+    <string name="settings_confidentiality">Privacybeleid</string>
+    <string name="settings_legal_notice">Wettelijke vermeldingen</string>
+    <string name="site_details_mention">De gegevens worden berekend sinds start van de werf.</string>
+    <string name="txt_commentaires_lifted">Commentaar oplossing</string>
+    <string name="txt_commentaires_lifted_with_star">Commentaar oplossing*</string>
+    <string name="txt_select_function">Selecteer een functie</string>
+    <string name="txt_verif_email">Controleer mijn e-mail</string>
+    <string name="txt_visit_nbr">Aantal bezoeken</string>
+    <string name="validate_informations">Valideer mijn gegevens</string>
+    <string name="verif_information">Controleer mijn gegevens</string>
+    <string name="chrome_not_found">You must have Chrome installed.</string>
+
+    <string name="txt_training">"Opleidingen"</string>
+    <string name="txt_new_closed_training">%1$d nieuwe afgesloten opleidingen</string>
+    <string name="txt_dont_have_closed_training">U heeft geen afgesloten opleidingen</string>
+    <string name="txt_create_new_training">Een nieuwe opleiding aanmaken</string>
+    <string name="txt_complete_home">Vul het onthaal in</string>
+    <string name="txt_complete_training">Vervolledig de opleiding voor een functie</string>
+    <string name="txt_complete_meeting">Vervolledig de uitwisselingsvergadering</string>
+    <string name="txt_home">Onthaal</string>
+    <string name="txt_post">Functie</string>
+    <string name="txt_exchange">Uitwisselingen</string>
+    <string name="txt_new_home">Nieuw onthaal</string>
+    <string name="txt_new_training">Nieuwe opleiding op de werkplek</string>
+    <string name="txt_new_exchange_meeting">Nieuwe uitwisselingsvergadering</string>
+    <string name="txt_current_training">lopende opleiding</string>
+    <string name="txt_signature">Handtekeningen</string>
+    <string name="txt_participant">Deelnemer</string>
+    <string name="txt_report">Samenvatting</string>
+    <string name="txt_participants">Deelnemers</string>
+    <string name="txt_training_infomations">Informatie omtrent de opleiding</string>
+    <string name="txt_create_the_training">De opleiding aanmaken</string>
+    <string name="txt_update_formation">Opleiding wijzigen</string>
+    <string name="txt_do_you_want_cancel_training">Wilt u de aanmaak van de opleiding annuleren?</string>
+    <string name="txt_msg_cancel_update_formation">Voulez-vous annuler la modification de la formation ?</string>
+    <string name="txt_formation_last_synchro">Laatste synchronisatie op %1$s</string>
+    <string name="txt_home_booklet_delivered">Onthaalbrochure overhandigd en becommentarieerd</string>
+    <string name="txt_home_booklet_delivered_etoile">Onthaalbrochure overhandigd en becommentarieerd*</string>
+    <string name="txt_other_document_delivered">Ander(e) document(en) overhandigd en becommentarieerd </string>
+    <string name="txt_subjects_approached">Onderwerpen : </string>
+    <string name="txt_select_participant">Kies een deelnemer</string>
+    <string name="txt_add_new_participant">Een nieuwe deelnemer toevoegen</string>
+    <string name="txt_add_participant">Een deelnemer toevoegen</string>
+    <string name="txt_user_name_participant">%1$s %2$s </string>
+    <string name="txt_delete_warning">Wilt u de huidige opleiding verwijderen?</string>
+    <string name="txt_tel_num">Telefoonnummer</string>
+    <string name="txt_employment_etoile">Beroep*</string>
+    <string name="txt_contract_type">Type contract</string>
+    <string name="txt_organization_type">Soort bedrijf</string>
+    <string name="txt_organization">Bedrijf</string>
+    <string name="txt_organization_etoile">Bedrijf*</string>
+    <string name="txt_employment">Beroep</string>
+    <string name="txt_acknowledgment">Kennis en aandacht voor de geschiktheid en mogelijke beperkingen van de gastheer*</string>
+    <string name="txt_n_plus_one">N+1</string>
+    <string name="txt_n_plus_one_label">N+1*</string>
+    <string name="txt_site_referent">Werf referentiepersoon (indien verschillend van de N+1)</string>
+    <string name="txt_authorization_issuance">Afgifte van rij- en vergunningsvergunningen</string>
+    <string name="txt_person_to_contact">Persoon die moet worden gewaarschuwd in geval van een ongeval</string>
+    <string name="txt_name_surname_phone">Naam Voornaam - telefoonnummer</string>
+    <string name="txt_name_tel">Naam en telefoonnummer</string>
+    <string name="txt_save">Opslaan</string>
+    <string name="txt_select_contrat">Kies een contract</string>
+    <string name="txt_select_type_society">Sélectionner le type de société</string>
+    <string name="txt_select_type">Kies een type</string>
+    <string name="txt_nota_key">Opmerking :</string>
+    <string name="txt_nota">Verplichte verificatie van titels en de geldigheid ervan</string>
+    <string name="txt_signed">Getekend</string>
+    <string name="txt_non_signed">Klik om the getekenen</string>
+    <string name="txt_personal_informations">Persoonlijke informatie</string>
+    <string name="txt_trainer_accueil">Ontvangst door</string>
+    <string name="txt_trainer_Training">Opleiding op werkpost uitgevoerd door :</string>
+    <string name="txt_trainer_meeting">Uitwisselingsvergadering geleid door :</string>
+    <string name="txt_further_informations">Bijkomende informatie</string>
+    <string name="txt_particiapant_signature">Handtekening van de deelnemer</string>
+    <string name="txt_your_signature">Uw handtekening</string>
+    <string name="txt_no_particiapant_added">Er worden geen deelnemers aan de opleiding toegevoegd.</string>
+    <string name="txt_warning">Opgepast!</string>
+    <string name="txt_warning_for_continuation">Deze wijziging heeft de annulering van de reeds gedane handtekening tot gevolg. Wilt u zeker doorgaan?</string>
+    <string name="txt_employee_training_message">Elke werknemer moet een veiligheidstraining krijgen op zijn of haar werkplek vóór hij aangesteld wordt voor een opdracht</string>
+    <string name="txt_training_instructions">De veiligheidsopleiding op de werkplek moet zo vaak mogelijk herhaald worden en minstens bij elke verandering van functie, modus operandi, enz.</string>
+    <string name="txt_ended_training_confirmation_message">Wilt u uw afgeronde opleidingen synchroniseren?</string>
+    <string name="txt_delete_name_participant_confirmation_message">Weet u zeker dat u %1$s wil verwijderen?</string>
+    <string name="txt_workplace_etoile">Werkplek*</string>
+    <string name="txt_workplace">Werkplek</string>
+    <string name="txt_third_party_provider">Tussenkomst van derden</string>
+    <string name="txt_third_parties_providers">Tussenkomst van derden (leveranciers...)</string>
+    <string name="txt_presented_documents_and_materials">Gepresenteerde documenten en materialen</string>
+    <string name="txt_supplier_reference">PPSPS goedkeuringsnummer, leverancier kennisgevingsreferentie, ...</string>
+    <string name="txt_provided_documents_and_materials">Overhandigde documenten en media</string>
+    <string name="txt_driving_machines_reference">Voertuigbesturing, machtigingen - Document referentie</string>
+    <string name="txt_driving_machines">Besturen van machines, vergunning,…Ref.do</string>
+    <string name="txt_special_instructions">Speciale instructies gegeven en becommentarieerd</string>
+    <string name="txt_training_signature_instructions">De handtekening van de werknemer en de trainer staat gelijk aan een rijbewijs.</string>
+    <string name="txt_label_select_one_or_more_participant">Sélectionnez un ou plusieurs participants</string>
+    <string name="txt_report_tel">Tel : </string>
+    <string name="txt_confirm_closing_training">Afsluiting bevestigen</string>
+    <string name="txt_type">Type</string>
+    <string name="txt_other_stakeholders">Andere sprekers</string>
+    <string name="txt_subjects">Onderwerpen</string>
+    <string name="txt_subject">Onderwerpen</string>
+    <string name="txt_meeting_duration">Vergadertijd (minuten)</string>
+    <string name="txt_add_subject">Een onderwerp toevoegen</string>
+    <string name="txt_entitled">Betiteling *</string>
+    <string name="txt_materials_used">Gebruikte ondersteuning</string>
+    <string name="txt_training_type">Type opleiding</string>
+    <string name="txt_meeting_ended">Vergadering afgelopen!</string>
+    <string name="txt_training_ended">Functieopleiding afgewerkt!</string>
+    <string name="txt_welcome_finished">Onthaal afgewerkt!</string>
+    <string name="txt_delete_subject_name_warning">Weet u zeker dat u %1$s wilt verwijderen?</string>
+    <string name="txt_signature_required">Alle handtekeningen vereist voor afsluiting</string>
+    <string name="txt_end">Afronden</string>
+    <string name="txt_add">Bijvoegen</string>
+    <string name="txt_no">Nee</string>
+    <string name="txt_comment">Commentaar</string>
+    <string name="txt_instructions_authorizations">Instructies voor het besturen van machines, vergunningen,... - Document referentie</string>
+
+    <string name="txt_formation_close">Afgesloten (%1$d)</string>
+    <string name="txt_formation_drafts">kladversies (%1$d)</string>
+    <string name="txt_dont_have_drafts">U hebt geen opgeslagen kladversies</string>
+    <string name="txt_delete_drafts">Ben je zeker dat je deze kladversie wil verwijderen?</string>
+    <string name="txt_delete">Verwijderd</string>
+    <string name="txt_drafts_not_accessible">Er is een opleiding aan de gang. Sluit deze af om toegang te krijgen tot uw kladversie.</string>
+    <string name="txt_holder">Houder*:</string>
+    <string name="txt_holder_rapport">Houder</string>
+    <string name="txt_msg_particiapant_signature">Ik ben geïnformeerd over wat ik moet doen in geval van ernstig en dreigend gevaar voor mijn veiligheid en gezondheid.</string>
+    <string name="txt_language_name_en">Engels</string>
+    <string name="txt_warning_date_not_reached">" De einddatum van de training is nog niet bereikt!"</string>
+    <string name="msg.cant.cloture.viste.conformite">U heeft geen enkele actie genomen. Gelieve een observatie toe te voegen.</string>
+</resources>

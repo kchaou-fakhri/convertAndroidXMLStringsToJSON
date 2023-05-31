@@ -1,0 +1,724 @@
+<resources>
+    <string name="app_name">FinalSafe2</string>
+    <string name="app_name_prod">FinalSafe</string>
+    <string name="app_name_test_pl">FinalSafe Test PL</string>
+    <string name="app_name_staging">FinalSafeSg</string>
+    <string name="app_name_preprod">FinalSafe</string>
+
+
+    <string name="fabric_key_dev">fb58550b433faf06dee6c1bfb3737eb4997c9f27</string>
+    <string name="fabric_key_prod">9c3b5fe2f1248381e9e9968d33840cd5cd955a9b</string>
+
+
+    <string name="version_number">1012</string>
+
+    <string name="content_description"></string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="txt_password_forgot">Mot de passe oublié ?</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="txt.aucune.image">Aucune image</string>
+    <string name="txt.aucun.risk">Aucun résultat</string>
+    <string name="txt.aucun.chantier">Aucun chantier</string>
+    <string name="txt.aucun.user">Aucun utilisateur trouvé.</string>
+    <string name="txt_aucun_user_filter">Aucun utilisateur ne correspond à votre recherche.</string>
+    <string name="txt_no_visit">Aucune visite</string>
+    <string name="txt_lever_remarque">Lever l\'observation</string>
+    <string name="action_sign_in_short">Inscription</string>
+    <string name="action_sign_out">Se déconnecter</string>
+    <string name="error_invalid_email">L\'addresse mail saisie est invalide.</string>
+    <string name="error_invalid_password">Le mot de passe est court.</string>
+    <string name="error_incorrect_password">Le mot de passe est incorrect.</string>
+    <string name="permission_rationale">Les autorisations des contacts sont nécessaires pour fournir des compléments d\'information par courriel.</string>
+    <string name="txt.final.safe">"Final Safe"</string>
+    <string name="txt.viste">"Visite"</string>
+    <string name="txt.visites">Visites</string>
+    <string name="txt_observation_by_visites">Observations par visites</string>
+    <string name="txt_nbr_visites">Visites : %s</string>
+    <string name="txt_single_visite">visite</string>
+    <string name="txt_more_visites">visites</string>
+    <string name="txt.creez.new.visite">Créer une nouvelle visite</string>
+    <string name="txt_more_visits"><u>Voir plus de visites</u></string>
+    <string name="txt.completez.visite.courante.prevention">Compléter la visite de prévention courante.</string>
+    <string name="txt.completez.visite.courante.conformité">Compléter la visite de conformité courante.</string>
+    <string name="txt.completez.visite.courante.hiearchique">Compléter la visite hiérarchique courante.</string>
+    <string name="txt.prevention">"Prévention"</string>
+    <string name="txt.visite.de.prevention">Visite de prévention</string>
+    <string name="txt.visite.de.conformité">Visite de conformité</string>
+    <string name="txt.visite.de.hierarchique">Visite hiérarchique</string>
+    <string name="txt.conformité">"Conformité"</string>
+    <string name="txt.hierarchique">"Hiérarchique"</string>
+    <string name="txt.synchroniser">Synchroniser</string>
+    <string name="txt.synchronise.in.progress">Synchronisation des données en cours.</string>
+    <string name="txt.synchronise.en.cours">Synchronisation... </string>
+    <string name="txt.synchronise.done">Synchronisation terminée avec succès.</string>
+    <string name="txt.annuler">Annuler</string>
+    <string name="txt.select">Sélectionner</string>
+    <string name="txt.new.visite.prevention">Nouvelle visite de prévention</string>
+    <string name="txt.new.visite.conformité">Nouvelle visite de conformité</string>
+    <string name="txt.new.visite.hiearchique">Nouvelle visite Hiérarchique</string>
+    <string name="txt.choisir.chantier">Choisir un chantier</string>
+    <string name="txt.mes.chantier">Mes chantiers</string>
+    <string name="txt.autres.chantier">Autres chantiers</string>
+    <string name="txt.filter">Filtrer</string>
+    <string name="txt.swivant">Suivant</string>
+    <string name="txt.valider">Valider</string>
+    <string name="txt.completer.info">Compléter les informations</string>
+    <string name="txt.selectionnez.accompagnat">Sélectionner le(s) accompagnant(s)</string>
+    <string name="txt.precedent">Précédent</string>
+    <string name="txt.creez.la.visite">Créer la visite</string>
+    <string name="txt.accompagnats">Accompagnants</string>
+    <string name="txt.accompagnat">Accompagnant</string>
+    <string name="txt.selectionnez.plusisieurs.accompagnat">Sélectionner un ou plusieurs accompagnants</string>
+    <string name="txt.vous.navez.aucun.accompagnat">Vous n\'avez pas des accompagnants</string>
+
+    <string name="txt.chantier">Chantier</string>
+    <string name="txt.chantiers">Chantiers</string>
+    <string name="txt.users">Utilisateurs</string>
+    <string name="txt.date.operation">Date opération</string>
+    <string name="txt_create_my_account">Créer mon compte</string>
+    <string name="txt_verif_email">Vérifier mon email</string>
+    <string name="txt_pwd_error_name">Le mot de passe ne doit pas contenir le nom et/ou le prénom.</string>
+    <string name="txt_pwd_error_length">Le mot de passe doit être composé de 10 caractères au minimum.</string>
+    <string name="txt_pwd_error_special_characters">Mot de passe non valide.</string>
+    <string name="txt_pwd_error_not_identical">Les deux mots de passe ne sont pas identiques.</string>
+    <string name="txt.informations.complementaires">Informations complémentaires</string>
+    <string name="txt_general_terms_of_use">J\'accepte les conditions générales d\'utilisation.</string>
+    <string name="txt_general_terms_of_use_span">les conditions générales d\'utilisation</string>
+    <string name="txt.visite.courante">Visite courante</string>
+    <string name="txt.fermer">Fermer</string>
+    <string name="txt.remarques">Observations</string>
+    <string name="txt_action_incontournables">Actions incontournables</string>
+    <string name="txt.one.remarques">Observation</string>
+    <string name="txt.points.forts">Points forts</string>
+    <string name="txt.one.points.forts">Point fort</string>
+    <string name="txt.points.a.ameliorer">Points à améliorer</string>
+    <string name="txt.one.points.a.ameliorer">Point à améliorer</string>
+    <string name="txt.supprimer">Supprimer</string>
+    <string name="txt.editer">Editer</string>
+    <string name="txt.editer.visite">Modifier la visite</string>
+    <string name="txt.cloturer">Clôturer</string>
+    <string name="txt.typology">Phase de chantier</string>
+    <string name="txt.typology.risques.questions">Phases de chantier, risques et questions</string>
+    <string name="txt.typology.etoile">Phase de chantier*</string>
+    <string name="txt.ajouter.accompagant">Ajouter un accompagnant</string>
+    <string name="txt.ajouter.title">Veuillez saisir un titre.</string>
+    <string name="txt.prenom">Prénom*</string>
+    <string name="txt.nom">Nom*</string>
+    <string name="txt.nom.prenom">Nom. Prénom *</string>
+    <string name="txt.veuillez.choisir.chantier">Veuillez choisir un chantier.</string>
+    <string name="msg.voulez.vous.quitter.creation.visite">Voulez-vous annuler la création de la visite ?</string>
+    <string name="msg.voulez.vous.quitter.modification.visite">Voulez-vous annuler la modification de la visite ?</string>
+    <string name="txt.quitter">Quitter</string>
+    <string name="txt.quit.application">Voulez-vous quitter l\'application ?</string>
+    <string name="txt.non">Non</string>
+    <string name="txt.oui">Oui</string>
+    <string name="txt.positive">Positive</string>
+    <string name="txt.modifier">Modifier</string>
+    <string name="txt.ajouter">Ajouter</string>
+
+    <string name="txt.done">Terminer</string>
+    <string name="txt.appliquer">Appliquer</string>
+    <string name="txt.primetre">Périmètre</string>
+    <string name="txt.direction.eiffage">Direction Eiffage Construction</string>
+
+
+    <string name="txt.creez.nouvelle.remarque">Créer une nouvelle observation</string>
+    <string name="txt.nouvelle.remarque">Nouvelle observation</string>
+    <string name="txt.title.ajout.observations">Ajout observations</string>
+    <string name="txt.title.ajout.observation">Ajout observation</string>
+    <string name="txt.title.ajouter.observation">Ajouter une observation</string>
+    <string name="txt.title.edit.observation">Modifier l\'observation</string>
+    <string name="txt.ajout.edit.remarque">Ajouter ou éditer une observation</string>
+    <string name="txt.ajout.edit.observations">Ajouter ou éditer une ou plusieurs observations</string>
+    <string name="txt.ajout.observations">Ajouter une ou plusieurs observations</string>
+    <string name="txt.add.edit.strong.point">Ajouter ou éditer un point fort</string>
+    <string name="txt.add.strong.point">Ajouter un point fort</string>
+    <string name="txt.update.strong.point">Editer un point fort</string>
+    <string name="txt.create.new.point.to.improove">Créer un nouveau point à améliorer</string>
+    <string name="txt.add.edit.point.to.improove">Ajouter ou éditer un point à améliorer</string>
+    <string name="txt.add.point.to.improove">Ajouter un point à améliorer</string>
+    <string name="txt.update.point.to.improove">Editer un point à améliorer</string>
+    <string name="txt.create.new.strong.point">Créer un nouveau point fort</string>
+    <string name="txt.title">Titre*</string>
+    <string name="txt.titlee">Titre</string>
+    <string name="msg.saisr.title.remarque">Veuillez saisir le titre de l\'observation.</string>
+    <string name="msg.saisr.commentaires">Veuillez saisir vos commentaires ou ajouter des photos de levée.</string>
+    <string name="msg.saisr.commentaires.flash">Veuillez saisir vos commentaires.</string>
+    <string name="msg.saisir.description">Veuillez saisir une description.</string>
+    <string name="txt.selectionnez.risque">Sélectionner le risque</string>
+    <string name="txt.selectionnez.un.risque">Sélectionner un risque</string>
+    <string name="txt.risque">Risque</string>
+    <string name="txt.risque.etoile">Risque*</string>
+    <string name="txt.selectionnez.topologie">Sélectionner la phase de chantier</string>
+    <string name="txt.topologie">Topologie</string>
+    <string name="txt.creez.remarque">Créer l\'observation</string>
+    <string name="txt.creez.observation">Créer l\'observation</string>
+    <string name="txt.modifier.observation">Modifier l\'observation</string>
+    <string name="txt.sauvegarder.observation">Sauvegarder l\'observation</string>
+
+    <string name="txt.modifier.remarque">Modifier l\'observation</string>
+    <string name="txt.mesure.prevention">Mesures de prévention </string>
+    <string name="txt.sauvegarder.remarque">Sauvegarder</string>
+    <string name="txt.description">Description*</string>
+    <string name="txt.description.no.star">Description</string>
+    <string name="msg.voulez.vous.quitter.creation.remarque">Voulez-vous annuler la création de l\'observation ?</string>
+    <string name="msg.voulez.vous.quitter.creation.observation">Voulez-vous annuler la création de l\'observation ?</string>
+    <string name="msg.voulez.vous.quitter.modification.remarque">Êtes-vous sûr de vouloir annuler les modifications ?</string>
+    <string name="msg.voulez.vous.quitter.modification.observation">Êtes-vous sûr de vouloir annuler les modifications ?</string>
+    <string name="msg.voulez.vous.supprimer.remarque">Voulez-vous supprimer cette observation ?</string>
+    <string name="msg.voulez.vous.supprimer.photo">Voulez-vous supprimer cette photo ?</string>
+    <string name="msg.are.you.sure.to.delete.visite">Voulez-vous supprimer la visite en cours ?</string>
+
+    <string name="msg.warning.delete.strong.point">Voulez-vous supprimer ce point fort ?</string>
+    <string name="msg.warning.delete.point.to.improve">Voulez-vous supprimer ce point à améliorer ?</string>
+
+    <string name="msg.voulez.vous.quitter.creation.point.fort">Voulez-vous annuler la création du point fort ?</string>
+    <string name="msg.voulez.vous.quitter.creation.point.ameliorer">Voulez-vous annuler la création du point à améliorer ?</string>
+
+    <string name="txt.photos">Photos</string>
+    <string name="txt.levee">Levée</string>
+    <string name="txt.observations">Observations</string>
+
+
+    <string name="txt.erreur">Erreur</string>
+    <string name="txt.OK">OK</string>
+    <string name="txt.verfier.champs">Veuillez saisir le nom.</string>
+
+
+    <string name="txt.dashboard">Tableau de bord</string>
+    <string name="txt.profile">Profil</string>
+    <string name="txt.settings">Paramètres</string>
+    <string name="txt.new.visit.flash">Observation flash</string>
+    <string name="txt.my.remarks">Observations à lever</string>
+    <string name="txt.visits">Historique</string>
+
+    <string name="txt.region">Régions</string>
+    <string name="txt.filiale">Filiales</string>
+    <string name="txt.sas">SAS</string>
+    <string name="txt.etablissement">Etablissements</string>
+
+
+    <string name="txt.region.min">régions</string>
+    <string name="txt.sas.min">SAS</string>
+    <string name="txt.etablissement.min">établissements</string>
+
+    <string name="txt.next">Suivant</string>
+    <string name="txt.toutes.les">Toutes les</string>
+    <string name="txt.tous.les">Tous les</string>
+    <string name="txt.tous.les.chantiers">Tous les chantiers</string>
+
+
+    <string name="txt.photo.creaton">Photo de création</string>
+
+
+    <string name="txt.photo.levee">Photo de levée</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt.visites.cloturees">nouvelles visites clôturées</string>
+
+
+    <string name="txt.visite.cloturee">"Une nouvelle visite clôturée "</string>
+
+
+    <string name="txt.no.visit.clotured">Vous n\'avez pas des visites clôturées</string>
+    <string name="msg.voulez.vous.cloturer.visite">Êtes-vous sûr de vouloir clôturer cette visite ?</string>
+    <string name="msg.voulez.vous.synchroniser.visites">Voulez-vous synchroniser vos visites clôturées ?</string>
+    <string name="error.email.empty">Veuillez saisir votre email.</string>
+
+
+    <string name="error.password.empty">Veuillez saisir votre mot de passe.</string>
+
+
+    <string name="error.email.password.not.match">Votre email ou mot de passe est incorrect. Veuiller réessayer.</string>
+    <string name="error.email.not.eiffage">Veuillez utiliser votre email interne Eiffage.</string>
+    <string name="error.email.not.valid">Veuillez saisir un e-mail valide.</string>
+    <string name="error_field_required">Ce champ est obligatoire.</string>
+    <string name="txt.risks">Risques</string>
+    <string name="txt.typologies">Phases de chantier</string>
+    <string name="msg.champ.vide">Ce champ ne doit pas être vide.</string>
+    <string name="txt.referentiel.listes">Référentiel et listes</string>
+    <string name="txt.no.accounts">Vous n\'avez pas de compte ?</string>
+
+    <string name="txt_create_account">Créer mon compte</string>
+
+    <string name="txt.title.connection.failed">Erreur de connexion</string>
+    <string name="txt.msg.connection.failed">Une erreur s\'est produite. Veuillez réessayer plus tard.</string>
+
+
+    <string name="msg.alert.deconnection">Êtes-vous sûr de vouloir se déconnecter ?</string>
+    <string name="txt.reset.password.ok">La demande de réinitialisation du mot de passe a été effectuée avec succès.</string>
+
+
+    <string name="txt.msg.internet.off">Merci de vérifier votre connexion internet.</string>
+
+    <string name="txt.title.alert.error.server">Erreur Serveur</string>
+    <string name="txt.msg.alert.error.server">Une erreur serveur est survenue. Veuillez réessayer plus tard.</string>
+
+    <string name="msg.voulez.vous.annuler.changements">Voulez-vous annuler les changements ?</string>
+    <string name="txt.reinitialiser.mot.passe">Réinitialiser le mot de passe</string>
+
+    <string name="msg.vous.pouvez.pas.cree.vpc">Vous n\'avez pas le droit de créer des visites de prévention.</string>
+    <string name="msg.vous.pouvez.pas.cree.vconf">Vous n\'avez pas le droit de créer des visites de conformité.</string>
+
+    <string name="msg.vous.pouvez.pas.cree.vher">Vous n\'avez pas le droit de créer des visites hiérarchiques.</string>
+    <string name="msg.vous.pouvez.pas.lever.remarque">Vous n\'avez pas le droit de lever des observations.</string>
+    <string name="error.select.typology">Veuillez sélectionner une phase de chantier.</string>
+    <string name="error.select.risk">Veuillez sélectionner un risque.</string>
+    <string name="error.select.a.risk">Veuillez sélectionner un risque.</string>
+
+    <string name="error.point.empty">Ce champ ne doit pas être vide.</string>
+    <string name="test.desc"> </string>
+    <string name="txt.commentaires">Commentaires*</string>
+    <string name="txt_evaluation_visit_flash">Pour corriger l’écart sans risque* :</string>
+    <string name="txt_i_know_i_can_i_act">Je sais, je peux, j’agis.</string>
+    <string name="txt_i_know_i_can_not_i_report">Je sais, je ne peux pas, je signale.</string>
+    <string name="txt_i_do_not_know_i_report">Je ne sais pas, je signale.</string>
+    <string name="txt_commentaires_lifted">Commentaire de levée</string>
+    <string name="txt_commentaires_lifted_with_star">Commentaire de levée*</string>
+
+    <string name="txt.commentaires.without.start">Commentaires</string>
+    <string name="txt.comment.without.star">Commentaire</string>
+    <string name="text.last.synchronise">Dernière synchronisation le </string>
+    <string name="text.any.last.synchronise">Aucune synchronisation n\'a été faite.</string>
+    <string name="text.positive.points.empty">Aucun point fort.</string>
+    <string name="text.negative.points.empty">Aucun point à améliorer.</string>
+
+    <string name="text.remarque.empty">Aucune observation pour ce chantier.</string>
+    <string name="text.observations.empty">Aucune observation n\'est ajoutée à ce chantier.</string>
+    <string name="msg.acune.observation.trouvee">Aucune observation trouvée.</string>
+    <string name="msg.cant.cloture.viste">Vous n\'avez effectué aucune action. Veuillez ajouter une observation, un point fort ou un point à améliorer.</string>
+    <string name="msg.cant.cloture.viste.conformite">Vous n\'avez effectué aucune action.</string>
+    <string name="txt.aucune.synchro">Aucune synchronisation n\'a été faite.</string>
+
+    <string name="txt.no.photos.wait.send">Aucune photo en attente d\'envoi.</string>
+
+    <string name="txt.nb.photos.wait.send">Photo(s) en attente d\'envoi.</string>
+
+
+    <string name="txt.last.update.at">Dernière mise à jour</string>
+    <string name="txt.download.autres.chantiers">Télécharger les données de un ou plusieurs chantiers</string>
+    <string name="fabric_api_key">fb58550b433faf06dee6c1bfb3737eb4997c9f27</string>
+    <string name="function.not.done.yet">Cette fonctionnalité n\'est pas encore disponible.</string>
+
+    <!--fabric identifier-->
+    <string name="you.dont.have.access">Vous n\'avez pas accès à cette fonctionnalité.</string>
+
+
+    <string name="msg.no.cs.is.affected">Aucun chantier ne vous est affecté.</string>
+    <string name="txt.add.remark">Ajouter une observation</string>
+
+    <string name="txt.new.strong.point">Nouveau point fort</string>
+
+    <string name="txt.new.point.to.improve">Nouveau point à améliorer</string>
+    <string name="txt.add.chantier">Ajouter un chantier</string>
+    <string name="txt.save.visit">Sauvegarder la visite</string>
+    <string name="txt.code.chantier">Code chantier*</string>
+    <string name="txt.code.chantier.no.star">Code chantier</string>
+    <string name="txt.conformite">Conformité</string>
+    <string name="txt.conforme">Conforme</string>
+
+    <string name="txt.ug.obs.not.applied">pas appliqué</string>
+    <string name="txt.ug.obs.poorly.mastered">peu maitrisé</string>
+    <string name="txt.ug.obs.good.app">bonne application</string>
+    <string name="txt.ug.obs.mastered.application">application maitrisée</string>
+
+    <string name="txt.ug.obs.not.applied.chart">Pas appliqué</string>
+    <string name="txt.ug.obs.poorly.mastered.chart">Peu maitrisé</string>
+    <string name="txt.ug.obs.good.app.chart">Bonne application</string>
+    <string name="txt.ug.obs.mastered.application.chart">Application maitrisée</string>
+
+    <string name="txt.ug.obs.prod.basic1">Basic 1 : Attitude bienveillante</string>
+    <string name="txt.ug.obs.prod.basic2">Basic 2 : Equipement de protection individuelle</string>
+    <string name="txt.ug.obs.prod.basic3">Basic 3 : Poste de travail propre et rangé</string>
+    <string name="txt.ug.obs.prod.basic4">Basic 4 : Respect de la circulation dans les extérieurs/ateliers/magasin</string>
+    <string name="txt.ug.obs.prod.basic5">Basic 5 : Matériel et accessoire de levage</string>
+
+    <string name="txt.ug.obs.trav.basic1">Basic sécurité 1 : EPI</string>
+    <string name="txt.ug.obs.trav.basic2">Basic 2 : Barriérage</string>
+    <string name="txt.ug.obs.trav.basic3">Basic 3 : Echafaudage roulant</string>
+    <string name="txt.ug.obs.trav.basic4">Basic 4 : Plateforme suspendue</string>
+    <string name="txt.ug.obs.trav.basic5">Basic 5 : Palonnier à ventouses</string>
+
+    <string name="txt.ug.obs.bure.basic1">Basic 1 : Attitude bienveillante</string>
+    <string name="txt.ug.obs.bure.basic2">Basic 2 : Equipement de protection individuelle</string>
+    <string name="txt.ug.obs.bure.basic3">Basic 3 : Poste de travail propre et rangé</string>
+    <string name="txt.ug.obs.bure.basic4">Basic 4 : Respect de la circulation dans les extérieurs/ateliers/magasin</string>
+    <string name="txt.ug.obs.bure.basic5">Basic 5 : Matériel et accessoire de levage</string>
+
+    <string name="txt.non.conforme">Non conforme</string>
+    <string name="txt.sans.objet">Sans objet</string>
+    <string name="txt.non.observe">Non observé</string>
+    <string name="txt.rubriques">Toutes les rubriques</string>
+    <string name="txt_all_functions">Toutes les fonctions</string>
+    <string name="txt_select_function">Sélectionner une fonction</string>
+    <string name="txt.veuillez.ajouter.observation">Veuillez choisir l\'état de l\'observation.</string>
+    <string name="msg.visite.flash.succes.creation">Votre observation a été créée avec succès.</string>
+    <string name="txt.to.add.observation">Pour ajouter une observation</string>
+    <string name="txt.select.question.click.plus">"sélectionner une question et tapez (+) "</string>
+
+    <string name="txt.edit.observation">Editer une observation</string>
+    <string name="txt.trait">Trait</string>
+    <string name="txt.couleur">Couleur</string>
+
+
+    <string name="txt.qr.code.empty">Veuillez saisir le code chantier ou scanner le QR Code.</string>
+    <string name="txt_evaluation_selected_empty">Veuillez préciser une évaluation avant de sauvegarder!</string>
+    <string name="txt.identifier.chantier">Identifier le chantier</string>
+    <string name="txt.vous.reste">Il vous reste</string>
+
+    <string name="txt.jours.else.deconnected">jours sinon votre compte sera déconnecté.</string>
+    <string name="txt.minutes.else.deconnected">minutes sinon votre compte sera déconnecté.</string>
+    <string name="txt.reinitialiser.filtres">Réinitialiser les filtres</string>
+    <string name="txt.my.obs.to.raise">Mes observations à lever</string>
+    <string name="txt.you.have.visits.not.synchronised">Vous avez des visites non synchronisées. Veuillez les synchroniser pour pouvoir continuer.</string>
+
+    <string name="txt.you.have.already.visit.in.progress">Vous avez déjà une visite en cours. Veuillez la clôturer et synchroniser pour pouvoir créer une opération de levée d\'observations.</string>
+
+
+    <string name="txt.one.operation.in.progress">Une opération de levée d\'observations sur un autre chantier est en cours. Merci de synchroniser avant de créer une autre opération.</string>
+    <string name="txt.one.operation.in.progress.new.visit.prevention">Une opération de levée d\'observations est en cours. Merci de synchroniser avant de créer une nouvelle visite de prévention.</string>
+    <string name="txt.one.operation.in.progress.new.visit.hierarchique">Une opération de levée d\'observations est en cours. Merci de synchroniser avant de créer une nouvelle visite hiérarchique.</string>
+    <string name="txt.one.operation.in.progress.new.visit.conformitee">Une opération de levée d\'observations est en cours. Merci de synchroniser avant de créer une nouvelle visite de conformité.</string>
+    <string name="txt.consult.or.raise.rq">Consulter ou lever une observation</string>
+    <string name="msg.visite.reserve.succes.creation">Votre levée de reserve a été sauvegardée avec succès.</string>
+    <string name="msg.areyou.sure.synchronise.observations.levées">Voulez-vous lancer la synchronisation de l\'opération de levée d\'observations en cours ?</string>
+    <string name="txt.select.cs">Sélectionner un chantier</string>
+    <string name="txt.plus.tard">Plus tard</string>
+    <string name="msg.are.you.sure.to.delete.opration.reserve">Voulez-vous supprimer l\'opération de levée d\'observations en cours ?</string>
+    <string name="msg.renseigner.infos.requises">Veuillez renseigner les informations manquantes pour pouvoir continuer.</string>
+    <string name="msg_info_question_national">Veuillez répondre à toutes les questions nationales.</string>
+    <string name="txt.raised.reserve">Levée des réserves</string>
+
+    <string name="txt.dashboard.message">Statisques calculées du</string>
+
+    <string name="txt.empty.statistics">Pas de statistiques calculées</string>
+    <string name="txt.dashboard.filter">Région - Filiale - Etablissement</string>
+    <string name="txt.my.visits">Mes visites : </string>
+    <string name="txt.my.visits.bar">Mes visites : -</string>
+    <string name="txt.conform.positive">Conformes et Positives : </string>
+    <string name="txt.not.conform.negative">Non conformes et à améliorer : </string>
+    <string name="txt.type.visits">TYPE DE VISITES</string>
+    <string name="txt.prevention.prevention">Prévention</string>
+    <string name="txt.hiearchic">Hiérarchique</string>
+    <string name="txt.flash">Flash</string>
+    <string name="txt.top.risks">PRINCIPAUX RISQUES</string>
+    <string name="txt.others">Autres</string>
+    <string name="txt.conform.positive.not.conform.negative">CONFORMES ET POSITIVES / NON CONFORMES ET À AMÉLIORER</string>
+    <string name="txt.no.data">Données manquantes</string>
+    <string name="txt.select.color">Sélectionner une couleur</string>
+    <string name="txt.period">Période</string>
+    <string name="txt.filters">Filtres</string>
+    <string name="txt.reinitialiser.perimetre">Réinitialiser le périmètre</string>
+    <string name="txt.starting.from">Depuis le</string>
+    <string name="txt.yesterday">Hier</string>
+    <string name="txt_last_year">Dernière année</string>
+    <string name="txt_this_year">Cette année</string>
+
+    <string name="txt.seven.days">Derniers 7 jours</string>
+    <string name="txt.thirteen.days">Derniers 30 jours</string>
+    <string name="txt.this.month">Ce mois</string>
+    <string name="txt.last.month">Dernier mois</string>
+    <string name="txt.custom">Personnalisée</string>
+    <string name="txt.date.invalid.start">Date postérieure à la date de fin.</string>
+    <string name="txt.date.invalid.end">Date antérieure à la date du début.</string>
+
+    <string name="txt.selected.items.zero">Aucun élément sélectionné.</string>
+    <string name="txt.selected.items">éléments sélectionnés</string>
+
+
+    <string name="txt.no.region">Aucune région</string>
+    <string name="txt.no.sas">Aucun SAS</string>
+
+    <string name="txt.no.etablishment">Aucun établissement</string>
+    <string name="txt.selections">sélections</string>
+    <string name="txt.retry">Réessayer</string>
+
+    <string name="txt.no.cs.found">Aucun chantier n’est trouvé.</string>
+    <string name="txt.scan">Scanner</string>
+    <string name="txt.language.code.fr">FR</string>
+    <string name="txt.language.code.pl">PL</string>
+
+    <string name="txt.language.code.nl_BE">NL BE</string>
+    <string name="txt.language.name.fr">Français</string>
+    <string name="txt.language.name.pl">Polonais</string>
+
+    <string name="txt.language.name.nl_BE">Néerlandais</string>
+    <string name="txt.conformes">Conformes</string>
+    <string name="txt.positives">Positives</string>
+    <string name="txt.positives.obs">Positives : %s</string>
+    <string name="txt.lifted.nb">Reste à lever : %s</string>
+
+    <string name="txt.non.conformes">Non conformes</string>
+    <string name="txt.a.ameliorer">À améliorer</string>
+    <string name="txt.toutes.regions">Toutes les régions</string>
+    <string name="c">C</string>
+
+    <string name="nc">NC</string>
+
+    <string name="so">SO</string>
+    <string name="code_chantier_btn">Code\nchantier</string>
+    <string name="txt.language.switch">Changer de langue</string>
+
+    <string name="txt.language">Langue</string>
+    <string name="erreur_lors_du_scan">Aucun QR code n\'est détecté dans la photo.</string>
+    <string name="choisir_methode_de_saisie">Choisir une option</string>
+    <string name="saisir_code">Saisir le code</string>
+    <string name="choisir_un_chantier">Choisir un chantier</string>
+    <string name="ajouter_une_nouvelle_observation">Ajouter une nouvelle observation</string>
+    <string name="nouvelles_observations">Nouvelles observations</string>
+    <string name="nouvelles_observations_with_two_points">Nouvelles observations :</string>
+    <string name="observation_positive">Observation positive</string>
+    <string name="observation_negative">Observation négative</string>
+    <string name="txt_error_please_enter_first_name">Veuillez renseigner un nom.</string>
+    <string name="txt_error_please_enter_last_name">Veuillez renseigner un prénom.</string>
+    <string name="txt_error_please_enter_function">Veuillez renseigner une fonction.</string>
+    <string name="txt_error_please_enter_region">Veuillez renseigner au moins une région.</string>
+    <string name="observations_positives">Observations positives</string>
+    <string name="observations_negatives">Observations négatives</string>
+    <string name="nouvelle_observation">Nouvelle observation</string>
+    <string name="neg_ou_pos">Veuillez choisir si l\'observation est positive ou négative.</string>
+    <string name="toute">Toutes</string>
+    <string name="chantier_de_mon_perimetre">Chantier de\nmon périmètre</string>
+    <string name="qr_code">QR\ncode</string>
+    <string name="selectionner_le_chantier_par">Sélectionner le chantier* par :</string>
+    <string name="no_cs_by_ref">Ce code ne correspond à aucun chantier dans FinalSafe.</string>
+    <string name="msg_synch_flash_part1">L\'observation Flash \"</string>
+    <string name="msg_synch_flash_part2">\" ne peut pas être synchronisée parce que le code chantier que vous avez renseigné est non valide. Voulez-vous le modifier et synchroniser à nouveau ?</string>
+    <string name="utiliser">Utiliser</string>
+    <string name="etes_vous_sur_de_vouloir_sauvegarder">Êtes-vous sûr de vouloir sauvegarder ?</string>
+
+    <string name="delete_or_edit_visit">Voulez-vous modifier ou supprimer cette visite ?</string>
+    <string name="choisir_chantier">Choisir chantier</string>
+    <string name="chantiers_desactives">Chantiers désactivés</string>
+    <string name="txt_language_name_gr">Allemand</string>
+    <string name="txt_language_name_en">Anglais</string>
+    <string name="au">au</string>
+    <string name="txt_edit_my_email">Modifier mon email</string>
+
+    <string name="du">du</string>
+    <string name="mplus_notif_channel_id">FinaleSafe</string>
+    <string name="txt_cancel">Cancel</string>
+
+    <string name="txt_last_visit">Dernière visite : %s</string>
+    <string name="upperscore" translatable="false">-</string>
+    <string name="txt.not.lifted">Non levées</string>
+    <string name="txt.lifted">Levées</string>
+
+
+    <string name="txt_header_observations">Le %1$s par %2$s</string>
+    <string name="toolbar_title_observations">Observations %1$s (%2$s)</string>
+    <string name="txt_Observations">Observations</string>
+    <string name="txt_negatives">Négatives</string>
+
+    <string name="txt_visit_details">Détails de la visite</string>
+    <string name="txt_nbr_visit"><![CDATA[<font color="#000000">%1$s</font> %2$s cette année, <font color="#000000">%3$s</font> en %4$s]]></string>
+    <string name="txt_filter_by_name">Filtrer par nom, prénom</string>
+    <string name="observation_details">Détails de l\'observation</string>
+    <string name="txt_editor">Rédacteur</string>
+    <string name="txt_preventive_measure">Mesure de prévention</string>
+    <string name="txt_lifted_label">Levée :</string>
+    <string name="txt_comments">Commentaire :</string>
+    <string name="txt_not_specified">Non renseigné</string>
+    <string name="txt_lifted_details">Observation levée le %1$s par %2$s</string>
+    <string name="txt_visit_flash">Observation Flash</string>
+    <string name="txt_obs_not_lifted">Observation non levée</string>
+    <string name="txt_photos_size">Photos (%s) :</string>
+    <string name="txt_select_scope">Sélectionner un périmètre</string>
+    <string name="txt_plz_select_scope">Veuillez sélectionner un périmètre.</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_search_no_sites">Aucun chantier ne correspond à votre recherche.</string>
+    <string name="txt_filter_by_site_name">Filtrer par nom de chantier</string>
+    <string name="txt_site_name_and_date">%1$s - %2$s</string>
+    <string name="txt_continue_create_account">Continuer la création de mon compte</string>
+    <string name="first_name">Nom</string>
+    <string name="last_name">Prénom</string>
+    <string name="txt_description_persona_info">Après la création de votre compte, toute modification sera possible par un administrateur.</string>
+    <string name="txt_enter_my_infos">Saisir mes informations</string>
+    <string name="txt_an_activation_code">Un code d’activation a été envoyé sur</string>
+    <string name="txt_return_the_code"><u>Renvoyer le code</u></string>
+    <string name="txt_continue_creating_account">Continuer la création de mon compte</string>
+    <!--     Mobelite plus texts       -->
+    <string name="flash_alert_button">Fermer</string>
+    <string name="txt_select_observation">Veuillez sélectionner une observation.</string>
+    <string name="txt_function">Fonction</string>
+    <string name="region">Région</string>
+    <string name="txt_ets">Etablissement</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="choose_password">Choisir mon mot de passe</string>
+    <string name="txt_password_description">Le mot de passe doit être composé de 10 caractères. Il doit contenir au minimum 3 types de caractères différents sur les 4 suivants : majuscules, minuscules, chiffres et caractères spéciaux.</string>
+    <string name="finalize_create_account">Finaliser la création de mon compte</string>
+    <string name="code_sent">Un nouveau code d\'activation a été envoyé sur %s</string>
+    <string name="select_region">Sélectionnez une région</string>
+    <string name="select_sas">Sélectionnez une SAS</string>
+    <string name="select_ets">Sélectionnez un établissement</string>
+    <string name="select_function">Sélectionnez une fonction</string>
+    <string name="downloading_photos">Des photos sont encore en cours de téléchargement.</string>
+    <string name="error_attempts">Vous avez dépassé le nombre de tentatives autorisées. Veuillez contacter l\'administrateur.</string>
+    <string name="scheme_deep_link" translatable="false">code-activation</string>
+    <string name="host_deep_link" translatable="false">finalsafe</string>
+    <string name="enter_your_code">Veuillez saisir le code.</string>
+    <string name="contact_admin">Veuillez contacter un administrateur.</string>
+    <string name="per_site">Par chantier</string>
+    <string name="per_user">Par utilisateur</string>
+    <string name="top_five">UTILISATEURS LES PLUS FREQUENTS : TOP 5</string>
+    <string name="lifted_reserve">Réserves levées</string>
+    <string name="pending_synchro">Des photos sont en cours de synchronisation. Prière de ne pas fermer l\'application.</string>
+    <string name="error_cgu">Veuillez cocher la case pour accepter les conditions générales d\'utilisation.</string>
+    <string name="sso_description">Bienvenue sur l\’application Eiffage Construction de management de la prévention.\nVous devez disposer d\’un compte Eiffage pour vous connecter.</string>
+    <string name="settings_about">A propos</string>
+    <string name="settings_confidentiality">Politique de confidentialité</string>
+    <string name="settings_legal_notice">Mentions légales</string>
+    <string name="confidentiality_url" translatable="false">https://finalsafe.eiffage.com/politique-confidentialite</string>
+    <string name="legal_notice_url" translatable="false">https://finalsafe.eiffage.com/mentions-legales</string>
+    <string name="site_details_mention">Les données sont calculés depuis l\'ouverture du chantier.</string>
+    <string name="validate_informations">Valider mes informations</string>
+    <string name="verif_information">Vérifier mes informations</string>
+    <string name="txt_visit_nbr">Nombre de visites</string>
+    <string name="db_generation_finished">Génération Terminée</string>
+    <string name="db_generation_loading">Génération en cours ...</string>
+    <string name="january">janvier</string>
+    <string name="february">février</string>
+    <string name="march">mars</string>
+    <string name="april">avril</string>
+    <string name="may">mai</string>
+    <string name="june">juin</string>
+    <string name="july">juillet</string>
+    <string name="august">août</string>
+    <string name="september">septembre</string>
+    <string name="october">octobre</string>
+    <string name="november">novembre</string>
+    <string name="december">décembre</string>
+
+    <string name="chrome_not_found">Vous devez avoir Chrome installé</string>
+
+    <string-array name="array_choose_chantier">
+        <item>@string/txt.mes.chantier</item>
+        <item>@string/txt.autres.chantier</item>
+    </string-array>
+    <string-array name="array_levee">
+        <item>@string/txt.photo.creaton</item>
+        <item>@string/txt.photo.levee</item>
+    </string-array>
+
+
+    <!--    ********************       -->
+
+    <string name="txt_training">Formations</string>
+    <string name="txt_new_closed_training">%1$d nouvelles formations clôturées</string>
+    <string name="txt_dont_have_closed_training">Vous n\'avez pas de formations clôturées</string>
+    <string name="txt_create_new_training">Créer une nouvelle formation</string>
+    <string name="txt_warning_date_not_reached">La date de réalisation de la formation n\'est pas encore atteinte !</string>
+    <string name="txt_complete_home">Compléter l\'accueil</string>
+    <string name="txt_complete_training">Compléter la formation au poste</string>
+    <string name="txt_complete_meeting">Compléter la réunion d’échanges</string>
+    <string name="txt_home">Accueil</string>
+    <string name="txt_post">Poste</string>
+    <string name="txt_exchange">Échanges</string>
+    <string name="txt_new_home">Nouvel accueil</string>
+    <string name="txt_new_training">Nouvelle formation au poste</string>
+    <string name="txt_new_exchange_meeting">Nouvelle réunion d\'échange</string>
+    <string name="txt_current_training">Formation en cours</string>
+    <string name="txt_signature">Signature</string>
+    <string name="txt_participant">Participant</string>
+    <string name="txt_report">Compte rendu</string>
+    <string name="txt_participants">Participants</string>
+    <string name="txt_training_infomations">Informations sur la formation</string>
+    <string name="txt_create_the_training">Créer la formation</string>
+    <string name="txt_update_formation">Modifier la formation</string>
+    <string name="txt_do_you_want_cancel_training">Voulez-vous annuler la création de la formation ?</string>
+    <string name="txt_msg_cancel_update_formation">Voulez-vous annuler la modification de la formation ?</string>
+    <string name="txt_formation_last_synchro">Dernière synchronisation le %1$s</string>
+    <string name="txt_home_booklet_delivered">Livret d\’accueil remis et commenté</string>
+    <string name="txt_home_booklet_delivered_etoile">Livret d\’accueil remis et commenté*</string>
+    <string name="txt_subjects_approached">Sujets abordés : </string>
+    <string name="txt_select_participant">Sélectionnez un participant</string>
+    <string name="txt_add_new_participant">Ajoutez un nouveau participant</string>
+    <string name="txt_add_participant">Ajoutez un participant</string>
+    <string name="txt_user_name_participant">%1$s %2$s </string>
+    <string name="txt_delete_warning">Voulez-vous supprimer la formation en cours?</string>
+    <string name="txt_tel_num">Numéro de téléphone</string>
+    <string name="txt_employment_etoile">Emploi*</string>
+    <string name="txt_contract_type">Type de contrat</string>
+    <string name="txt_organization_type">Type de société</string>
+    <string name="txt_organization">Société</string>
+    <string name="txt_organization_etoile">Société*</string>
+    <string name="txt_employment">Emploi</string>
+    <string name="txt_acknowledgment">Prise de connaissance et prise en compte de l\'aptitude et des restrictions éventuelles par l\'accueillant*</string>
+    <string name="txt_n_plus_one">N+1</string>
+    <string name="txt_n_plus_one_label">N+1*</string>
+    <string name="txt_site_referent">Référent chantier (si différent du N+1)</string>
+    <string name="txt_authorization_issuance">Autorisations de conduite et habilitations délivrées</string>
+    <string name="txt_name_surname_phone">Nom Prénom - numéro de téléphone</string>
+    <string name="txt_person_to_contact">Personne à prévenir en cas d\'accident</string>
+    <string name="txt_name_tel">Nom Prénom - numéro de téléphone</string>
+    <string name="txt_save">Enregistrer</string>
+    <string name="txt_select_contrat">Sélectionnez un contrat</string>
+    <string name="txt_select_type_society">Sélectionner le type de société</string>
+    <string name="txt_select_type">Sélectionnez un type</string>
+    <string name="txt_nota_key">Nota :</string>
+    <string name="txt_nota">Vérification obligatoire des titres et de leur validité</string>
+    <string name="txt_signed">Signé</string>
+    <string name="txt_non_signed">Cliquer pour signer</string>
+    <string name="txt_personal_informations">Informations Personnelles</string>
+    <string name="txt_trainer_accueil">Accueil réalisé par</string>
+    <string name="txt_trainer_Training">Formation au poste réalisée par</string>
+    <string name="txt_trainer_meeting">Réunion d\'échanges réalisée par</string>
+    <string name="txt_other_document_delivered">Autre(s) document(s) remis et commenté(s)</string>
+    <string name="txt_further_informations">Informations complémentaires</string>
+    <string name="txt_particiapant_signature">Signature du participant</string>
+    <string name="txt_your_signature">Signature du formateur</string>
+    <string name="txt_no_particiapant_added">Aucun participant n\'est ajouté à la formation.</string>
+    <string name="txt_warning">Attention !</string>
+    <string name="txt_warning_for_continuation">Cette modification entraîne l’annulation des signatures déjà effectuées. Êtes-vous sûr de vouloir continuer ?</string>
+    <string name="txt_employee_training_message">Chaque salarié doit bénéficier d’une formation à la sécurité à son poste de travail avant toute affectation</string>
+    <string name="txt_training_instructions">La formation à la sécurité au poste de travail doit être renouvelée aussi souvent que nécessaire et au minimum à chaque changement de poste, de mode opératoire, … </string>
+    <string name="txt_ended_training_confirmation_message">Voulez-vous synchroniser vos formations Clôturées/brouillons ?</string>
+    <string name="txt_delete_name_participant_confirmation_message">Êtes-vous sûr de vouloir supprimer %1$s?</string>
+    <string name="txt_workplace_etoile">Poste de travail*</string>
+    <string name="txt_workplace">Poste de travail</string>
+    <string name="txt_third_party_provider">Intervention de tiers</string>
+    <string name="txt_third_parties_providers">Intervention de tiers (fournisseurs...)</string>
+    <string name="txt_presented_documents_and_materials">Documents et supports présentés</string>
+    <string name="txt_supplier_reference">N° d’avenant PPSPS, référence notice fournisseur, …</string>
+    <string name="txt_provided_documents_and_materials">Documents et support remis</string>
+    <string name="txt_driving_machines_reference">Consignes dans le cadre de la conduite d\'engins, des habilitations,... - Référence document</string>
+    <string name="txt_driving_machines">Conduite d\'engins, habilitations,... - Ref. doc.</string>
+    <string name="txt_special_instructions">Consignes particulières remises et commentées</string>
+    <string name="txt_training_signature_instructions">La signature par le salarié et par le formateur vaut autorisation de conduite.</string>
+    <string name="txt_label_select_one_or_more_participant">Sélectionnez un ou plusieurs participants</string>
+    <string name="txt_report_tel">Tél : </string>
+    <string name="txt_confirm_closing_training">Confirmer la clôture</string>
+    <string name="txt_type">Type</string>
+    <string name="txt_other_stakeholders">Autres intervenants</string>
+    <string name="txt_subjects">"Sujets"</string>
+    <string name="txt_subject">"Sujet"</string>
+    <string name="txt_meeting_duration">"Durée de la réunion (minutes)"</string>
+    <string name="txt_add_subject">Ajoutez un sujet</string>
+    <string name="txt_entitled">Intitulé *</string>
+    <string name="txt_materials_used">Support utilisé</string>
+    <string name="txt_training_type">Type de formation</string>
+    <string name="txt_meeting_ended">Réunion terminée !</string>
+    <string name="txt_training_ended">Formation au poste terminée!</string>
+    <string name="txt_welcome_finished">Accueil terminé !</string>
+    <string name="txt_delete_subject_name_warning">Êtes-vous sûr de vouloir supprimer %1$s?</string>
+    <string name="txt_signature_required"><i>Signature de tous obligatoire avant la clôture</i></string>
+    <string name="txt_end">Terminer</string>
+    <string name="txt_add">Ajouter</string>
+    <string name="txt_no">Non</string>
+    <string name="txt_comment">Commentaire</string>
+    <string name="txt_instructions_authorizations">Consignes dans le cadre de la conduite d\'engins, des habilitations,... - Référence document</string>
+    <string name="txt_formation_close">Clôturées(%1$d)</string>
+    <string name="txt_formation_drafts">Brouillons(%1$d)</string>
+    <string name="txt_dont_have_drafts">Vous n\'avez pas de brouillons sauvegardés.</string>
+    <string name="txt_delete_drafts">Êtes-vous sûr de vouloir supprimer ce brouillon ?</string>
+    <string name="txt_delete">Supprimée</string>
+    <string name="txt_drafts_not_accessible">Une formation est en cours. Merci de la clôturer pour accéder à votre brouillon.</string>
+    <string name="txt_holder">Titulaire*:</string>
+    <string name="txt_holder_rapport">Titulaire</string>
+    <string name="txt_msg_particiapant_signature">Je suis informé de la conduite à tenir face à un danger grave et imminent pour ma sécurité et ma santé.</string>
+</resources>
